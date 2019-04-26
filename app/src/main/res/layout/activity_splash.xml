@@ -16,6 +16,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Sell Me!"
+    android:id="@+id/intro"
     android:textStyle="bold"
     android:textColor="#2191d5"/>
 </LinearLayout>

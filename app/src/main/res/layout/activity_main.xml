@@ -18,7 +18,7 @@
 
         android:layout_marginTop="30dp"
         android:layout_alignLeft="@id/usrName"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_below="@id/img"
         android:id="@+id/usrtxt"
         android:layout_width="wrap_content"
@@ -38,7 +38,7 @@ android:background="@drawable/round_bg"
 
         android:layout_marginTop="20dp"
         android:layout_alignLeft="@id/usrName"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_below="@id/usrName"
         android:id="@+id/txtusremail"
         android:layout_width="wrap_content"
@@ -52,6 +52,7 @@ android:background="@drawable/round_bg"
         android:layout_height="40dp"
         android:layout_below="@id/txtusremail"
         android:id="@+id/usrpassword"
+        android:inputType="textPassword"
         android:layout_centerHorizontal="true"
 
         />
@@ -64,9 +65,7 @@ android:background="@drawable/round_bg"
     android:checked="true"
     android:text="Remember me"
     android:layout_below="@id/usrpassword"
-    android:buttonTint="@color/colorAccent1"
-    android:foregroundTint="@color/colorAccent1"
-    android:backgroundTint="@color/colorAccent1"
+    app:buttonTint="@color/colorAccent1"
     />
 
     <Button

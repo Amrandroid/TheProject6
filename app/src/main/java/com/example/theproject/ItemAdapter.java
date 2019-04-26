@@ -15,9 +15,9 @@ public class ItemAdapter extends ArrayAdapter<Items> {
         super(context, 0, objects);
     }
 
-    @androidx.annotation.NonNull
+
     @Override
-    public View getView(int position, @androidx.annotation.Nullable View convertView, @androidx.annotation.NonNull ViewGroup parent) {
+    public View getView(int position, View convertView,ViewGroup parent) {
         convertView= LayoutInflater.from(getContext()).inflate(R.layout.custom_list_layout,parent,false);
         TextView title=convertView.findViewById(R.id.title);
         TextView info=convertView.findViewById(R.id.info);
